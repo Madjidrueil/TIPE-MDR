@@ -1,0 +1,3 @@
+scrapper -> voir comment faire pour qu'il scrappe à l'infini (première étape : récuprer tous les liens internes d'une page wikipédia PS : utile aussi pour PageRank)
+commencer-> model proba
+commencer -> sémantic (scrapper , index ?)
