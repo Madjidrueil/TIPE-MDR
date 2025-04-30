@@ -1,3 +1,7 @@
 scrapper -> voir comment faire pour qu'il scrappe à l'infini (première étape : récuprer tous les liens internes d'une page wikipédia PS : utile aussi pour PageRank)
 commencer-> model proba
 commencer -> sémantic (scrapper , index ?)
+
+
+https://www.irit.fr/~Mohand.Boughanem/slides/RI/chap6_modeles_probabilistes.pdf
+https://www-lipn.univ-paris13.fr/~rozenknop/Cours/MICR_REI/Seance6/modeles-RI-1.pdf
