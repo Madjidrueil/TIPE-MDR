@@ -48,25 +48,13 @@ def save_to_file(title, content, directory="output"):
 if __name__ == "__main__":
     # Exemple d'utilisation :
     titles = [
-    "Achille", "Agamemnon", "Athéna", "Apollon", "Aristote", "Platon", "Socrate", "Démocrite", "Héraclite", "Pythagore",
-    "Zeus", "Héra", "Poséidon", "Hadès", "Dionysos", "Hermès", "Artémis", "Aphrodite", "Héphaïstos", "Déméter",
-    "Olympe", "Delphes", "Athènes", "Sparte", "Corinthe", "Thèbes", "Argos", "Mycènes", "Rhodes", "Crète",
-    "Iliade", "Odyssée", "Homère", "Hésiode", "Esclavage en Grèce antique", "Démocratie athénienne",
-    "Guerres médiques", "Guerre du Péloponnèse", "Philosophie grecque", "Théâtre grec", "Épopée", "Oracle de Delphes",
-    "Acropole", "Agora", "Hoplitisme", "Trirème", "Colonisation grecque", "Panathénées", "Jeux olympiques antiques",
-    "Polis", "Éphèbe", "Métèque", "Erechthéion", "Parthénon", "Périclès", "Léonidas Ier", "Miltiade", "Thémistocle",
-    "Clisthène", "Solon", "Dracon", "Pindare", "Anaxagore", "Anaximandre", "Anaximène", "Zénon d'Élée",
-    "Parménide", "Épicure", "Épictète", "Zénon de Cition", "Stoïcisme", "Scepticisme", "Académie de Platon",
-    "Lycurgue de Sparte", "Hoplite", "Phalange", "Siècle de Périclès", "Art grec antique", "Vase grec",
-    "Sculpture grecque", "Frise du Parthénon", "Athéna Niké", "Temple d'Apollon", "Euripide", "Sophocle", "Aristophane",
-    "Eschyle", "Tragédie grecque", "Comédie ancienne", "Mythologie grecque", "Chronos", "Gaïa", "Ouranos",
-    "Océan", "Nyx", "Érèbe", "Héméra", "Éther", "Tartare", "Éros primordial", "Titans", "Atlas", "Prométhée",
-    "Épiméthée", "Pandore", "Hélios", "Séléné", "Éos", "Némésis", "Thanatos", "Hypnos", "Charon", "Cerbère",
-    "Les Moires", "Les Érinyes", "Les Grâces", "Les Muses", "Centaure", "Satyr", "Nymphe", "Sirène",
-    # J'en ajouterai des centaines comme ça, pour atteindre environ 500
-]
+    "Acropole d'Athènes"
+] #PS : voir scrappé.py (j'ai pas fais de lien entre ces fichiers
 
+    i = 0
     for title in titles:
+        i+= 1
+        print(str(i/5) + "%")
         #print(f"--- {title} ---")
         content = get_wikipedia_page(title)
         #print(content[:500])  # Affiche les 500 premiers caractères
