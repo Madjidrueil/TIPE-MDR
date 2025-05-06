@@ -40,25 +40,22 @@ def create_index():
 
 #print(repertory)
 
+#---------------------------------------------------------------------------------------------------
 
-def inversed_indexation(index):
+
+def inversed_indexation_norm(index):
     inverted_index = defaultdict(lambda : defaultdict(int))
 
     for document in index:
         for mot in index[document]:
             inverted_index[mot.lower()][document] += 1
-    return ponderation(index, inverted_index)
-
+    return ponderation_norm(index, inverted_index)
 
 
 def l_pond(doc, word, max_tf):
     return 0.5 + 0.5 *(doc[word])/max_tf
 
-def l_pond_1(doc, word ,max_tf):
-    return doc[word]
 
-def g_pond(word,inverted_index,N):
-    return 1+log(N/len(inverted_index[word]))
 
 def n_pond(doc, avg_doc_length):
     doc_length = sum(doc.values())
@@ -67,7 +64,7 @@ def n_pond(doc, avg_doc_length):
     return (1+pivot)/(pivot*(1-slope)/slope)
 
 
-def ponderation(index,inverted_index):
+def ponderation_norm(index,inverted_index):
     max_tf = {doc :max(index[doc].values()) for doc in index}
     N = len(index.keys())
     avg_doc_length = 0
@@ -76,13 +73,54 @@ def ponderation(index,inverted_index):
     avg_doc_length /= N
 
     for word in inverted_index:
-        w_g = g_pond(word,inverted_index,N)
+        w_g = 1+log(N/len(inverted_index[word]))
         for doc in inverted_index[word]:
             freq_t = l_pond(index[doc],word,max_tf[doc])*w_g*n_pond(index[doc], avg_doc_length)
             inverted_index[word][doc] = freq_t
     return inverted_index
 
+#---------------------------------------------------------------------------------------------------
+
+
+def inversed_indexation_bool(index):
+    inverted_index = defaultdict(lambda : defaultdict(int))
+
+    for document in index:
+        for mot in index[document]:
+            inverted_index[mot.lower()][document] = 1
+    return inverted_index
+
+#---------------------------------------------------------------------------------------------------
+def ponderation_tf_idf(index,inverted_index):
+    N = len(index.keys())
+    for word in inverted_index:
+        w_g = 1+log(N/len(inverted_index[word]))
+        for doc in inverted_index[word]:
+            freq_t = doc[word]* w_g
+            inverted_index[word][doc] = freq_t
+    return inverted_index
+
+def inversed_indexation_tf_idf(index):
+    inverted_index = defaultdict(lambda : defaultdict(int))
+
+    for document in index:
+        for mot in index[document]:
+            inverted_index[mot.lower()][document] += 1
+    return ponderation_tf_idf(index, inverted_index)
+
+
+#---------------------------------------------------------------------------------------------------
+def inversed_indexation_tf(index):
+    inverted_index = defaultdict(lambda : defaultdict(int))
+
+    for document in index:
+        for mot in index[document]:
+            inverted_index[mot.lower()][document] += 1
+    return inverted_index
+
+
+#---------------------------------------------------------------------------------------------------
 
 
 #inversed_indexation(create_index(), big_repertory)
-#print(inversed_indexation(create_index()))
+#print(inversed_indexation_norm(create_index()))
