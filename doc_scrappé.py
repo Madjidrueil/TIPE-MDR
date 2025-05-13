@@ -101,3 +101,125 @@ titles= [
     "Thorakite", "Thronosis", "Toxotès", "Trapeza", "Triérarque", "Tritogénie",
     "Trophonios", "Xérophtalmie", "Zoster"
 ]
+
+mots_homere = [
+    "Achille", "Agamemnon", "Ulysse", "Hector", "Priam", "Pâris", "Ménélas", "Hélène",
+    "Patrocle", "Ajax", "Nestor", "Diomède", "Calchas", "Cassandre", "Andromaque", "Briséis",
+    "Chryseis", "Énée", "Sarpédon", "Glaucos", "Idoménée", "Thersite", "Dolon", "Anténor",
+    "Pénélope", "Télémaque", "Circé", "Calypso", "Nausicaa", "Polyphème", "Eumée", "Euryclée",
+    "Mentor", "Antinoos", "Eurymaque", "Laërte", "Alkinoos", "Arété", "Démodocos", "Mélantho",
+    "Ithaque", "Troie", "Sparte", "Mycènes", "Pylos", "Crète", "Phéacie", "Charybde", "Scylla",
+    "Lestrygons", "Lotophages", "Cyclope", "Olympe", "Ida", "Scamandre", "Xanthe", "Styx",
+    "Achéens", "Danaens", "Argiens", "Troyens", "Grecs", "Phrygiens", "Lyciens", "Crètois",
+    "Dieux", "Zeus", "Héra", "Athéna", "Apollon", "Poséidon", "Arès", "Aphrodite", "Héphaïstos",
+    "Hermès", "Dionysos", "Artémis", "Hadès", "Perséphone", "Thétis", "Éris", "Iris", "Éole",
+    "Hypnos", "Thanatos", "Néréides", "Muses", "Oracle", "Sacrifice", "Prophétie", "Destin",
+    "Colère", "Guerre", "Paix", "Honneur", "Gloire", "Vengeance", "Ruse", "Courage", "Loyauté",
+    "Trahison", "Amour", "Haine", "Jalousie", "Foi", "Destinée", "Nostos", "Métis", "Kleos",
+    "Timè", "Aretè", "Xénios", "Dikè", "Hubris", "Nemesis", "Menis", "Dolos", "Penthos",
+    "Épopée", "Chant", "Vers", "Rhapsode", "Aède", "Formule", "Invocation", "Comparaison",
+    "Hémistiche", "Hexamètre", "Dactyle", "Parataxe", "Épithete", "Hymne", "Légende", "Mythe",
+    "Tradition", "Oral", "Écrit", "Papyrus", "Parchemin", "Manuscrit", "Bibliothèque", "Alexandrie",
+    "Scholie", "Commentaire", "Traduction", "Philologie", "Archéologie", "Tablette", "Linear B",
+    "Fresque", "Céramique", "Amphore", "Stèle", "Temple", "Autel", "Trésor", "Offrande", "Oracle",
+    "Divination", "Augure", "Oiseau", "Signe", "Miracle", "Intervention", "Métamorphose", "Voyage",
+    "Navigation", "Naufrage", "Tempête", "Vent", "Mer", "Océan", "Île", "Rivage", "Port", "Navire",
+    "Rame", "Voile", "Gouvernail", "Hameçon", "Filet", "Banquet", "Vin", "Pain", "Viande", "Miel",
+    "Fromage", "Olivier", "Laurier", "Lierre", "Lion", "Aigle", "Serpent", "Cheval", "Taureau",
+    "Chien", "Sanglier", "Colombe", "Faucon", "Armure", "Bouclier", "Épée", "Lance", "Arc", "Flèche",
+    "Casque", "Cuirasse", "Jambière", "Char", "Roue", "Siège", "Rempart", "Porte", "Tour", "Mur",
+    "Palais", "Salle", "Lit", "Trône", "Torche", "Feu", "Fumée", "Cendre", "Sang", "Blessure", "Mort"
+]
+
+villes_grecques_antiques = [
+    # --- CITÉS-ÉTATS (POLEIS) MAJEURES ---
+    "Athènes", "Sparte", "Corinthe", "Thèbes", "Argos", "Mégare", "Éphèse", "Milet",
+    "Sicyone", "Syracuse", "Olympie", "Delphes", "Délos", "Cnossos", "Gortyne", "Phocée",
+    "Byzance", "Pergame", "Sparte", "Mytilène", "Rhodes", "Thasos", "Paros", "Naxos",
+    "Samothrace", "Chios", "Lesbos", "Samos", "Égine", "Trézène", "Érétrie", "Platées",
+    # --- COLONIES GRECQUES ---
+    "Marseille", "Naples", "Tarente", "Crotone", "Ségeste", "Agrigente", "Sélinonte",
+    "Cyrène", "Byblos", "Alexandrie", "Antioche", "Séleucie", "Apamée", "Nicée", "Trapezous",
+    "Chersonèse", "Olbia", "Panticapée", "Phanagoria", "Istros", "Massalia",
+    # --- PERSONNAGES HISTORIQUES ---
+    "Périclès", "Solon", "Clisthène", "Thémistocle", "Alcibiade", "Lycurgue", "Léonidas",
+    "Pausanias", "Lysandre", "Épaminondas", "Pélopidas", "Hippias", "Hipparque", "Dracon",
+    "Aristide", "Cimon", "Démosthène", "Eschine", "Phidias", "Praxitèle", "Sophocle",
+    "Euripide", "Aristophane", "Hérodote", "Thucydide", "Xénophon", "Platon", "Aristote",
+    "Socrate", "Diogène", "Hypatie", "Archimède", "Pythagore", "Hippocrate", "Gorgias",
+    # --- INSTITUTIONS & SOCIÉTÉ ---
+    "Polis", "Agora", "Acropole", "Boulè", "Ecclésia", "Aréopage", "Gérousie", "Éphores",
+    "Dème", "Clérouquie", "Métèque", "Esclave", "Citoyen", "Hoplite", "Phalange", "Trière",
+    "Ostracisme", "Démocratie", "Oligarchie", "Tyrannie", "Lacédémonien", "Dorian", "Ionien",
+    "Éolien", "Péloponnèse", "Attique", "Béotie", "Thessalie", "Macédoine", "Crète", "Chypre",
+    # --- MONUMENTS & ARCHITECTURE ---
+    "Parthénon", "Érechthéion", "Propylées", "Temple", "Théâtre", "Stade", "Gymnase", "Odéon",
+    "Stoa", "Agora", "Portique", "Colonne", "Chapiteau", "Dorique", "Ionique", "Corinthien",
+    "Frise", "Fronton", "Céramique", "Kerameikos", "Longs Murs", "Thermes", "Aqueduc", "Via",
+    "Nécropole", "Tombeau", "Sarcophage", "Stèle", "Statue", "Kouros", "Korè", "Bronze", "Marbre",
+    # --- RELIGION & MYTHES ---
+    "Zeus", "Athéna", "Apollon", "Artémis", "Déméter", "Dionysos", "Asclépios", "Héra",
+    "Poséidon", "Hadès", "Hermès", "Héphaïstos", "Aphrodite", "Arès", "Nike", "Oracle",
+    "Sanctuaire", "Autel", "Sacrifice", "Offrande", "Pythie", "Mystères", "Éleusis", "Dodone",
+    "Panathénées", "Olympiades", "Jeux", "Pythiques", "Isthmiques", "Néméens", "Oracle", "Augure",
+    # --- GUERRES & CONFLITS ---
+    "Guerres Médiques", "Marathon", "Thermopyles", "Salamine", "Platées", "Mycale", "Guerre du Péloponnèse",
+    "Siège", "Bataille", "Hégémonie", "Ligue", "Délienne", "Péloponnésienne", "Corinthienne", "Béotienne",
+    "Phalange", "Hoplon", "Doru", "Xiphos", "Casque", "Cuirasse", "Cnide", "Peltaste", "Catapulte",
+    # --- ÉCONOMIE & ARTISANAT ---
+    "Tétradrachme", "Drachme", "Obol", "Commerce", "Amphore", "Céramique", "Potier", "Vase",
+    "Figurine", "Mosaïque", "Fresque", "Verre", "Métal", "Mine", "Esclavage", "Agriculture",
+    "Olive", "Vigne", "Blé", "Fromage", "Poisson", "Vin", "Huile", "Boulanger", "Pêcheur",
+    # --- SCIENCES & ARTS ---
+    "Philosophie", "Mathématiques", "Géométrie", "Astronomie", "Médecine", "Théâtre", "Tragédie",
+    "Comédie", "Musique", "Lyre", "Aède", "Poésie", "Histoire", "Rhétorique", "Logique", "Académie",
+    "Lycée", "Bibliothèque", "Parchemin", "Papyrus", "Stylos", "Encre", "Scribe", "Symposium"
+]
+
+artistes_grece_antique = [
+    # --- SCULPTEURS CÉLÈBRES ---
+    "Phidias", "Polyclète", "Myron", "Praxitèle", "Scopas", "Lysippe", "Alcamène", "Agéladas",
+    "Calamis", "Critios", "Nésiotès", "Phradmon", "Théodore", "Céphisodote", "Euphranor", "Bryaxis",
+    "Timothéos", "Leocharès", "Dédale", "Endoios", "Krésilas", "Canachus", "Pythagore", "Gorgias",
+    
+    # --- PEINTRES & CÉRAMISTES ---
+    "Apollodore", "Zeuxis", "Parrhasios", "Polygnote", "Agatharchos", "Apelle", "Protogène", "Nicias",
+    "Timanthe", "Pausias", "Exékias", "Euphronios", "Brygos", "Douris", "Cléophradès", "Amasis",
+    "Sophilos", "Andokidès", "Épictétos", "Phintias", "Polyclète", "Myson", "Pistoxénos", "Makron",
+    
+    # --- ARCHITECTES ---
+    "Ictinos", "Callicratès", "Mnésiclès", "Hippodamos", "Pythéos", "Hermogène", "Satyros", "Philon",
+    "Libon", "Chersiphron", "Métagénès", "Théodoros", "Eupalinos", "Dinocratès", "Sostratos", "Vitruve",
+    
+    # --- POÈTES & AÈDES ---
+    "Homère", "Hésiode", "Pindare", "Sappho", "Alcée", "Anacréon", "Callimaque", "Théocrite", "Bacchylide",
+    "Stésichore", "Simonide", "Ibycos", "Arion", "Mimnerme", "Tyrtée", "Solon", "Archiloque", "Alcman",
+    
+    # --- DRAMATURGES ---
+    "Eschyle", "Sophocle", "Euripide", "Aristophane", "Ménandre", "Phrynichos", "Agathon", "Cratinos",
+    "Eupolis", "Aristarque", "Philoclès", "Ion", "Achaeus", "Astydamas", "Moschion", "Xénoclès",
+    
+    # --- MUSICIENS & DANSEURS ---
+    "Terpandre", "Timothée", "Pindare", "Olympus", "Pratinas", "Phrynis", "Lasos", "Alcman", "Thalétas",
+    "Ariphron", "Sakadas", "Polymnestos", "Clonas", "Philoxène", "Timothéos", "Mésomède", "Pythagore",
+    
+    # --- TECHNIQUES & STYLES ---
+    "Chryselephantin", "Marbre", "Bronze", "Argile", "Fresque", "Encaustique", "Cire", "Pigment", "Mosaïque",
+    "Céramique", "Vase", "Amphore", "Cratère", "Lécythe", "Hydrie", "Kylix", "Stèle", "Bas-relief", "Ronde-bosse",
+    "Contrapposto", "Canon", "Symétrie", "Proportion", "Dorique", "Ionique", "Corinthien", "Acrotère", "Métope",
+    
+    # --- ŒUVRES EMBLÉMATIQUES ---
+    "Parthénon", "Zeus d'Olympie", "Athéna Parthénos", "Discobole", "Doriphore", "Hermès de Praxitèle", "Laocoon",
+    "Victoire de Samothrace", "Vénus de Milo", "Kouros", "Korè", "Gorgone", "Centauromachie", "Gigantomachie",
+    "Périple", "Iliade", "Odyssée", "Théogonie", "Odes", "Hymnes", "Tragédie", "Comédie", "Dithyrambe",
+    
+    # --- LIEUX ARTISTIQUES ---
+    "Atelier", "Fonderie", "Carrière", "Théâtre", "Odéon", "Gymnase", "Agora", "Acropole", "Sanctuaire", "Temple",
+    "Stade", "Palestre", "Bibliothèque", "École", "Céramique", "Kerameikos", "Delphes", "Olympie", "Délos", "Épidaure",
+    
+    # --- MOUVEMENTS & INFLUENCES ---
+    "Archaïque", "Classique", "Hellénistique", "Naturalisme", "Idéalisme", "Rigidité", "Mouvement", "Expression",
+    "Symbole", "Mythologie", "Rituel", "Culte", "Patron", "Mécène", "Commanditaire", "Concours", "Panthénées", "Dionysies",
+    "Atelier", "Signature", "Legs", "Postérité", "Imitation", "Innovation", "Tradition", "Révolution"
+]
+
