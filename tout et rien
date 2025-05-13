@@ -1,0 +1,10 @@
+def doc_pert():
+    l = []
+    vu = []
+    cond = input("doc à remplir (sinon taper 'STOP') : ")
+    while cond != 'STOP':
+        if not(cond in vu):
+            l.append("output_1\\"+cond+".txt")
+            vu.append(cond)
+        cond = input("doc à remplir (sinon taper 'STOP') : ")
+    return l
