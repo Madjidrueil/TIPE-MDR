@@ -59,3 +59,30 @@ def query_treatment(req):
         if len(word) > 1:
             doc[word.lower()] += 1
     return doc
+def index_inversé(index):
+    # Initialisation 
+    inverted_index = defaultdict(dict)
+    N = len(index)
+    # Calcul du nombre de documents contenant chaque terme (df)
+    df = defaultdict(int)
+    for document in index:
+        mot_unique = set(document)
+        for mot in mot_unique:
+            df[mot] += 1
+    for document in index :
+        fréquence_mot = defaultdict(int)
+        for mot in document:
+            fréquence_mot[mot] += 1
+
+        for mot, fréquence in fréquence_mot.items():
+            # Calcul TF lissé
+            tf = 1 + log(fréquence)
+
+            # Calcul IDF
+            idf = log(N / df[mot]) + 1
+
+            # Calcul TF-IDF
+            tfidf = tf * idf
+            inverted_index[mot][document] = tfidf
+
+    return inverted_index
